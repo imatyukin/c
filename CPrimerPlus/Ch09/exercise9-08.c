@@ -1,7 +1,7 @@
 // Chapter 9 Exercise 8
 #include <stdio.h>
 
-double power(double, long);	// ANSI prototype
+double power(double x, long n);	// ANSI prototype
 
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 
 	printf("Введите число и степень, в которую число будет возведено.\n");
 	printf("Для завершения программы введите 'q'.\n");
-	while (scanf("%lf%d", &x, &exp) == 2)
+	while (scanf("%lf %d", &x, &exp) == 2)
 	{
 		xpow = power(x,exp);	// function call
 		printf("%.3g в степени %d равно %.5g\n", x, exp, xpow);
