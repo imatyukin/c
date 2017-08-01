@@ -1,8 +1,11 @@
 //vararr2d.c -- functions using VLAs
 #include <stdio.h>
+
 #define ROWS 3
 #define COLS 4
+
 int sum2d(int rows, int cols, int ar[rows][cols]);
+
 int main(void)
 {
     int i, j;

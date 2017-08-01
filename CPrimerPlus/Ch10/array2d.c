@@ -1,10 +1,13 @@
 // array2d.c -- functions for 2d arrays
 #include <stdio.h>
+
 #define ROWS 3
 #define COLS 4
+
 void sum_rows(int ar[][COLS], int rows);
 void sum_cols(int [][COLS], int );    // ok to omit names
 int sum2d(int (*ar)[COLS], int rows); // another syntax
+
 int main(void)
 {
     int junk[ROWS][COLS] = {

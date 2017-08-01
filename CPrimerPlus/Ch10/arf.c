@@ -1,8 +1,11 @@
 /* arf.c -- array functions */
 #include <stdio.h>
+
 #define SIZE 5
+
 void show_array(const double ar[], int n);
 void mult_array(double ar[], int n, double mult);
+
 int main(void)
 {
     double dip[SIZE] = {20.0, 17.66, 8.2, 15.3, 22.22};

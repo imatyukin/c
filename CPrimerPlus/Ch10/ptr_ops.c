@@ -1,5 +1,6 @@
 // ptr_ops.c -- pointer operations
 #include <stdio.h>
+
 int main(void)
 {
     int urn[5] = {100,200,300,400,500};
