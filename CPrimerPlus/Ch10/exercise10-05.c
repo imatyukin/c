@@ -5,7 +5,7 @@
 
 #define SIZE 10
 
-double MaxMinDiff(double *array, int size);
+double MaxMinDiff(const double *array, int size);
 
 int main(void)
 {
@@ -31,7 +31,7 @@ int main(void)
     return 0;
 }
 
-double MaxMinDiff(double *array, int size)
+double MaxMinDiff(const double *array, int size)
 {
     double max = array[0], min = array[0];
 
