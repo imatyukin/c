@@ -50,12 +50,8 @@ void sumarr(int cols, int source1[cols], int source2[cols], int target[cols])
 {
     // sum of elements of two source arrays
 
-    int tmp;
-
-    for (int i = 0; i < cols; i++) {
-        tmp = source1[i];
-        target[i] = source2[i] + tmp;
-    }
+    for (int i = 0; i < cols; i++)
+        target[i] = source1[i] + source2[i];
 }
 
 void showarr(int cols, int ar[cols])
