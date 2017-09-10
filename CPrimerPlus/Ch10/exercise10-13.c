@@ -69,7 +69,7 @@ void showSet(int cols, double array[cols])
 
 void showArray(double (*array)[COLS], int rows)
 {
-    // print the contents of an N x 5 array
+    // print the contents of an N x 5 array of doubles
 
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < COLS; ++j) {
