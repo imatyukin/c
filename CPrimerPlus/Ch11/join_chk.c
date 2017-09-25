@@ -1,9 +1,12 @@
 /* join_chk.c -- joins two strings, check size first */
 #include <stdio.h>
 #include <string.h>
+
 #define SIZE 30
 #define BUGSIZE 13
+
 char * s_gets(char * st, int n);
+
 int main(void)
 {
     char flower[SIZE];
@@ -40,5 +43,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }

@@ -1,5 +1,6 @@
 /* nono.c -- no! */
 #include <stdio.h>
+
 int main(void)
 {
     char side_a[] = "Side A";

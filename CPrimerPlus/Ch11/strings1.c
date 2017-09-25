@@ -1,8 +1,9 @@
-
 //  strings1.c
 #include <stdio.h>
+
 #define MSG "I am a symbolic string constant."
 #define MAXLENGTH 81
+
 int main(void)
 {
     char words[MAXLENGTH] = "I am a string in an array.";

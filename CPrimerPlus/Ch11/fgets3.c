@@ -1,6 +1,8 @@
 /*  fgets3.c  -- using fgets() */
 #include <stdio.h>
+
 #define STLEN 10
+
 int main(void)
 {
     char words[STLEN];
@@ -21,5 +23,6 @@ int main(void)
         puts(words);        
     }
     puts("done");
+
     return 0;
 }

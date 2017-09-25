@@ -1,5 +1,6 @@
 //put_put.c -- user-defined output functions
 #include <stdio.h>
+
 void put1(const char *);
 int put2(const char *);
 

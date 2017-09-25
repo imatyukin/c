@@ -1,7 +1,9 @@
 /* starsrch.c -- use strncmp() */
 #include <stdio.h>
 #include <string.h>
+
 #define LISTSIZE 6
+
 int main()
 {
     const char * list[LISTSIZE] =

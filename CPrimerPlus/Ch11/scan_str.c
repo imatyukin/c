@@ -1,5 +1,6 @@
 /* scan_str.c -- using scanf() */
 #include <stdio.h>
+
 int main(void)
 {
     char name1[11], name2[11];

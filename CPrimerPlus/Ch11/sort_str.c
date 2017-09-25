@@ -1,9 +1,11 @@
 /* sort_str.c -- reads in strings and sorts them */
 #include <stdio.h>
 #include <string.h>
+
 #define SIZE 81        /* string length limit, including \0  */
 #define LIM 20         /* maximum number of lines to be read */
 #define HALT ""        /* null string to stop input          */
+
 void stsrt(char *strings[], int num);/* string-sort function */
 char * s_gets(char * st, int n);
 
@@ -62,6 +64,7 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }
 

@@ -1,6 +1,8 @@
 /* put_out.c -- using puts() */
 #include <stdio.h>
+
 #define DEF "I am a #defined string."
+
 int main(void)
 {
     char str1[80] = "An array was initialized to me.";

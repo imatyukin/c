@@ -1,7 +1,9 @@
 /* strcnvt.c -- try strtol()  */
 #include <stdio.h>
 #include <stdlib.h>
+
 #define LIM 30
+
 char * s_gets(char * st, int n);
 
 int main()
@@ -42,5 +44,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }

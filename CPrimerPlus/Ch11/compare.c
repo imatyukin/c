@@ -4,6 +4,7 @@
 
 #define ANSWER "Grant"
 #define SIZE 40
+
 char * s_gets(char * st, int n);
 
 int main(void)
@@ -39,5 +40,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }

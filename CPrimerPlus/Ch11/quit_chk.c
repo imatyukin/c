@@ -1,9 +1,11 @@
 /* quit_chk.c -- beginning of some program */
 #include <stdio.h>
 #include <string.h>
+
 #define SIZE 80
 #define LIM 10
 #define STOP "quit"
+
 char * s_gets(char * st, int n);
 
 int main(void)
@@ -38,5 +40,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }

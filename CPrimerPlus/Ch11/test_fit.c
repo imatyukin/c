@@ -1,6 +1,7 @@
 /* test_fit.c -- try the string-shrinking function */
 #include <stdio.h>
 #include <string.h> /* contains string function prototypes */
+
 void fit(char *, unsigned int);
 
 int main(void)

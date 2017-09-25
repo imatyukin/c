@@ -1,8 +1,11 @@
 /* str_cat.c -- joins two strings */
 #include <stdio.h>
 #include <string.h>  /* declares the strcat() function */
+
 #define SIZE 80
+
 char * s_gets(char * st, int n);
+
 int main(void)
 {
     char flower[SIZE];
@@ -40,5 +43,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }

@@ -1,6 +1,8 @@
 /*  fgets2.c  -- using fgets() and fputs() */
 #include <stdio.h>
+
 #define STLEN 10
+
 int main(void)
 {
     char words[STLEN];

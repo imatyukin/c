@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+
 #define LIMIT 81
+
 void ToUpper(char *);
 int PunctCount(const char *);
 

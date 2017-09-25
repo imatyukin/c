@@ -1,7 +1,8 @@
 //  addresses.c  -- addresses of strings
+#include <stdio.h>
+
 #define MSG "I'm special."
 
-#include <stdio.h>
 int main()
 {
     char ar[] = MSG;

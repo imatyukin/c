@@ -1,9 +1,11 @@
 /* copy3.c -- strncpy() demo */
 #include <stdio.h>
 #include <string.h>  /* declares strncpy() */
+
 #define SIZE 40
 #define TARGSIZE 7
 #define LIM 5
+
 char * s_gets(char * st, int n);
 
 int main(void)
@@ -47,5 +49,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;
     }
+
     return ret_val;
 }
