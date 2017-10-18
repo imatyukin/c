@@ -14,7 +14,7 @@ int main(void)
     char string[SIZE] = "Модифицируемая строка: ";
     int space = SIZE - strlen(string) - 1;
 
-    puts("Input string: ");
+    puts("Введите строку: ");
     sgetnchar(string + strlen(string), space);
     puts(string);
 
