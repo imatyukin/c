@@ -1,5 +1,6 @@
 // hiding.c -- variables in blocks
 #include <stdio.h>
+
 int main()
 {
     int x = 30;      // original x

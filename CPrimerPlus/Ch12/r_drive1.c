@@ -2,6 +2,7 @@
 /* compile with s_and_r.c                  */
 #include <stdio.h>
 #include <stdlib.h>
+
 extern void srand1(unsigned int x);
 extern int rand1(void);
 

@@ -1,5 +1,6 @@
 /* loc_stat.c -- using a local static variable */
 #include <stdio.h>
+
 void trystat(void);
 
 int main(void)

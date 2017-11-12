@@ -1,8 +1,10 @@
 // parta.c --- various storage classes
 // compile with partb.c
 #include <stdio.h>
+
 void report_count();
 void accumulate(int k);
+
 int count = 0;       // file scope, external linkage
 
 int main(void)

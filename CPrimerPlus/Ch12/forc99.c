@@ -1,5 +1,6 @@
 // forc99.c -- new C99 block rules
 #include <stdio.h>
+
 int main()
 {
     int n = 8;

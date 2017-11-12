@@ -1,7 +1,10 @@
 /* global.c  -- uses an external variable */
 #include <stdio.h>
+
 int units = 0;         /* an external variable      */
+
 void critic(void);
+
 int main(void)
 {
     extern int units;  /* an optional redeclaration */
