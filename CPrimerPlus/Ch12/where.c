@@ -1,11 +1,11 @@
 //  where.c  -- where's the memory?
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int static_store = 30;
 const char * pcg = "String Literal";
+
 int main()
 {
     int auto_store = 40;
