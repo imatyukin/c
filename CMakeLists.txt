@@ -3,5 +3,5 @@ project(c)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES CPrimerPlus/Ch12/exercise12-01.c)
-add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch12/exercise12-01.c)
+set(SOURCE_FILES CPrimerPlus/Ch12/exercise12-02.c CPrimerPlus/Ch12/exercise12-02b.c CPrimerPlus/Ch12/exercise12-02.h)
+add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch12/exercise12-02.c CPrimerPlus/Ch12/exercise12-02b.c CPrimerPlus/Ch12/exercise12-02.h)
