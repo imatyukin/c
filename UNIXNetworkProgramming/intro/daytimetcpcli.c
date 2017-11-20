@@ -1,4 +1,4 @@
-#include	"unp.h"
+#include	"../lib/unp.h"
 
 int
 main(int argc, char **argv)
