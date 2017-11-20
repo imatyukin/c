@@ -8,7 +8,7 @@ main(int argc, char **argv)
 	char				recvline[MAXLINE + 1];
 
 	if (argc != 2)
-		err_quit("usage: a.out <IPaddress>");
+		err_quit("usage: daytimetcpcliv6 <IPaddress>");
 
 	if ( (sockfd = socket(AF_INET6, SOCK_STREAM, 0)) < 0)
 		err_sys("socket error");
