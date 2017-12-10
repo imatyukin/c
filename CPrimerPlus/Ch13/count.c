@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
     int ch;         // place to store each character as read
     FILE *fp;       // "file pointer"
     unsigned long count = 0;
+    
     if (argc != 2)
     {
         printf("Usage: %s filename\n", argv[0]);

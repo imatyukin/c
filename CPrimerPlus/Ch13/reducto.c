@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>    // for exit()
 #include <string.h>    // for strcpy(), strcat()
+
 #define LEN 40
 
 int main(int argc, char *argv[])
