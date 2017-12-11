@@ -3,5 +3,5 @@ project(c)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES CPrimerPlus/Ch13/reverse.c)
-add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch13/reverse.c)
+set(SOURCE_FILES CPrimerPlus/Ch13/randbin.c)
+add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch13/randbin.c)

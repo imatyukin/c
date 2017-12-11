@@ -1,6 +1,7 @@
 /* randbin.c -- random access, binary i/o */
 #include <stdio.h>
 #include <stdlib.h>
+
 #define ARSIZE 1000
 
 int main()
