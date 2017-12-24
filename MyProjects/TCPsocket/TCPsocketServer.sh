@@ -1,0 +1,1 @@
+clang -o TCPsocketServer TCPsocketServer.c HandleTCPClient.c DieWithError.c
