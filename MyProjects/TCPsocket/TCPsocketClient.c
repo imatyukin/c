@@ -9,6 +9,7 @@
 #define RCVBUFSIZE 32   /* Size of receive buffer */
 
 void ErrorFunc(char * errorMessage);    /* Error handling function */
+void DieWithError(char * errorMessage);
 
 int main(int argc, char * argv[])
 {
@@ -62,7 +63,7 @@ int main(int argc, char * argv[])
             DieWithError("recv() failed or connection closed prematurely");
         totalBytesRcvd += bytesRcvd;                    /* Keep tally of total bytes */
         echoBuffer[bytesRcvd] = '\0';                   /* Terminate the string! */
-        printf(echoBuffer);                             /* Print the echo buffer */
+        printf("%s", echoBuffer);                       /* Print the echo buffer */
     }
     printf("\n");                                       /* Print a final linefeed */
     close(sock);

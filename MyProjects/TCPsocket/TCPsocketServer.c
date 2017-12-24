@@ -10,6 +10,7 @@
 
 void ErrorFunc(char * errorMessage);    /* Error handling function */
 void HandleTCPClient(int clntSocket);   /* TCP client handling function */
+void DieWithError(char * errorMessage);
 
 int main(int argc, char * argv[])
 {
