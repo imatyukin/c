@@ -8,8 +8,8 @@
 
 #define RCVBUFSIZE 32   /* Size of receive buffer */
 
+void DieWithError(char * errorMessage); /* Error handling function */
 void ErrorFunc(char * errorMessage);    /* Error handling function */
-void DieWithError(char * errorMessage);
 
 int main(int argc, char * argv[])
 {
