@@ -1,31 +1,31 @@
 // TCPsocketServer.c
-#include <stdio.h>      /* for printf() and fprintf() */
-#include <sys/socket.h> /* for socket(), bind(), and connect() */
-#include <arpa/inet.h>  /* for sockaddr_in and inet_ntoa() */
-#include <stdlib.h>     /* for atoi() and exit() */
-#include <string.h>     /* for memset() */
-#include <unistd.h>     /* for close() */
+#include <stdio.h>                                      /* for printf() and fprintf() */
+#include <sys/socket.h>                                 /* for socket(), bind(), and connect() */
+#include <arpa/inet.h>                                  /* for sockaddr_in and inet_ntoa() */
+#include <stdlib.h>                                     /* for atoi() and exit() */
+#include <string.h>                                     /* for memset() */
+#include <unistd.h>                                     /* for close() */
 
-#define MAXPENDING 5    /* Maximum outstanding connection requests */
+#define MAXPENDING 5                                    /* Maximum outstanding connection requests */
 
-void DieWithError(char * errorMessage); /* Error handling function */
-void ErrorFunc(char * errorMessage);    /* Error handling function */
-void HandleTCPClient(int clntSocket);   /* TCP client handling function */
+void DieWithError(char * errorMessage);                 /* Error handling function */
+void ErrorFunc(char * errorMessage);                    /* Error handling function */
+void HandleTCPClient(int clntSocket);                   /* TCP client handling function */
 
 int main(int argc, char * argv[])
 {
-    int servSock;                       /* Socket descriptor for server */
-    int clntSock;                       /* Socket descriptor for client */
-    struct sockaddr_in echoServAddr;    /* Local address */
-    struct sockaddr_in echoClntAddr;    /* Client address */
-    unsigned short echoServPort;        /* Server port */
-    unsigned int clntLen;               /* Length of client address data structure */
+    int servSock;                                       /* Socket descriptor for server */
+    int clntSock;                                       /* Socket descriptor for client */
+    struct sockaddr_in echoServAddr;                    /* Local address */
+    struct sockaddr_in echoClntAddr;                    /* Client address */
+    unsigned short echoServPort;                        /* Server port */
+    unsigned int clntLen;                               /* Length of client address data structure */
 
-    if (argc != 2)                      /* Test for correct number of arguments */
+    if (argc != 2)                                      /* Test for correct number of arguments */
     {
         fprintf(stderr, "Usage: %s <Server Port>\n", argv[0]); exit(1);
     }
-    echoServPort = atoi(argv[1]);       /* First arg: local port */
+    echoServPort = atoi(argv[1]);                       /* First arg: local port */
 
     /* Create socket for incoming connections */
     if ((servSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
