@@ -1,0 +1,1 @@
+clang -o getifaddrs getifaddrs.c
