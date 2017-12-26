@@ -1,13 +1,6 @@
-/*
- * =============================================================================
- *
- *       Filename:  daytimetcpcli.c
- *
- *    Description:  time get client based TCP.
- *
- * =============================================================================
- */
-
+//
+// Chapter 1 Exercise 3
+//
 #include "unp.h"
 
 int main(int argc, char **argv)
