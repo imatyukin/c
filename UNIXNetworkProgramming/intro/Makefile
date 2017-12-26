@@ -4,8 +4,7 @@ PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpcli2 daytimetcpcli3 \
 		daytimetcpsrv daytimetcpsrv1 daytimetcpsrv2 daytimetcpsrv3 \
 		daytimetcpcliv6 daytimetcpsrvv6 \
 		byteorder \
-		exercise1_03 exercise1_04 exercise1_05 \
-        exercise3_03
+		exercise1_03 exercise1_04 exercise1_05
 
 all:	${PROGS}
 
@@ -50,9 +49,6 @@ exercise1_04: exercise1_04.o
 
 exercise1_05: exercise1_05.o
 		${CC} ${CFLAGS} -o $@ exercise1_05.o ${LIBS}
-
-exercise3_03: exercise3_03.o
-		${CC} ${CFLAGS} -o $@ exercise3_03.o ${LIBS}
 
 clean:
 		rm -f ${PROGS} ${CLEANFILES}
