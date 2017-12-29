@@ -1,4 +1,5 @@
 // Chapter 13 Exercise 12
+// Note: use data.txt as input file to test this program.
 #include <stdio.h>
 #include <stdlib.h>
 
