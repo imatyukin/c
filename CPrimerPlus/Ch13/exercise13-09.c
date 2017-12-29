@@ -16,15 +16,18 @@ int main(void)
         fprintf(stderr,"Не удается открыть файл \"wordy\".\n");
         exit(EXIT_FAILURE);
     }
+
     // определить текущее количество строк
     rewind(fp);
     while (fgets(words, MAX, fp) != NULL)
         wordct++;
+
     rewind(fp);
     puts("Введите слова для добавления в файл; для завершения");
     puts("введите символ # в начале строки.");
     while ((fscanf(stdin,"%40s", words) == 1) && (words[0] != '#'))
         fprintf(fp, "%3d: %s\n", ++wordct, words);
+
     puts("Содержимое файла:");
     rewind(fp); // возврат в начало файла
     while (fgets(words, MAX, fp) != NULL) // чтение строки, включая число
