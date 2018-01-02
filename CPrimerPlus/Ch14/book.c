@@ -1,7 +1,9 @@
 //* book.c -- one-book inventory */
 #include <stdio.h>
 #include <string.h>
+
 char * s_gets(char * st, int n);
+
 #define MAXTITL  41      /* maximum length of title + 1         */
 #define MAXAUTL  31      /* maximum length of author's name + 1 */
 
