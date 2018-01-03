@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <string.h>   // for strcpy(), strlen()
 #include <stdlib.h>   // for malloc(), free()
+
 #define SLEN 81
+
 struct namect {
     char * fname;  // using pointers
     char * lname;
@@ -77,4 +79,3 @@ char * s_gets(char * st, int n)
     }
     return ret_val;
 }
-

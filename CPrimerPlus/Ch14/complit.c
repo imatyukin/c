@@ -1,5 +1,6 @@
 /* complit.c -- compound literals */
 #include <stdio.h>
+
 #define MAXTITL  41
 #define MAXAUTL  31
 

@@ -1,5 +1,6 @@
 /* funds4.c -- passing an array of structures to a function */
 #include <stdio.h>
+
 #define FUNDLEN 50
 #define N 2
 

@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define MAXTITL  40
 #define MAXAUTL  40
 #define MAXBKS   10             /* maximum number of books */
+
 char * s_gets(char * st, int n);
+
 struct book {                   /* set up book template    */
     char title[MAXTITL];
     char author[MAXAUTL];
