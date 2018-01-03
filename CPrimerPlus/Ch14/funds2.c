@@ -1,5 +1,6 @@
 /* funds2.c -- passing a pointer to a structure */
 #include <stdio.h>
+
 #define FUNDLEN 50
 
 struct funds {

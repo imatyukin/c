@@ -1,5 +1,6 @@
 /* funds1.c -- passing structure members as arguments */
 #include <stdio.h>
+
 #define FUNDLEN 50
 
 struct funds {
@@ -22,6 +23,7 @@ int main(void)
     
     printf("Stan has a total of $%.2f.\n",
            sum(stan.bankfund, stan.savefund) );
+
     return 0;
 }
 

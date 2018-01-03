@@ -1,5 +1,6 @@
 /* friends.c -- uses pointer to a structure */
 #include <stdio.h>
+
 #define LEN 20
 
 struct names {

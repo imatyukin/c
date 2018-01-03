@@ -3,6 +3,7 @@
 #include <string.h>
 
 #define NLEN 30
+
 struct namect {
     char fname[NLEN];
     char lname[NLEN];

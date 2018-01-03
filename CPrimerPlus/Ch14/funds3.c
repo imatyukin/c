@@ -1,5 +1,6 @@
 /* funds3.c -- passing a structure */
 #include <stdio.h>
+
 #define FUNDLEN 50
 
 struct funds {

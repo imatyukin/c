@@ -1,6 +1,8 @@
 // friend.c -- example of a nested structure
 #include <stdio.h>
+
 #define LEN 20
+
 const char * msgs[5] =
 {
     "    Thank you for the wonderful evening, ",

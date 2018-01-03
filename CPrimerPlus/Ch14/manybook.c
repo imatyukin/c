@@ -1,7 +1,9 @@
 /* manybook.c -- multiple book inventory */
 #include <stdio.h>
 #include <string.h>
+
 char * s_gets(char * st, int n);
+
 #define MAXTITL   40
 #define MAXAUTL   40
 #define MAXBKS   100              /* maximum number of books  */
