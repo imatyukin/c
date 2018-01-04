@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+
 #define LEN 81
+
 char * s_gets(char * st, int n);
 char showmenu(void);
 void eatline(void);     // read through end of line
@@ -45,6 +47,7 @@ int main(void)
 char showmenu(void)
 {
     char ans;
+
     puts("Enter menu choice:");
     puts("u) uppercase       l) lowercase");
     puts("t) transposed case o) original case");
