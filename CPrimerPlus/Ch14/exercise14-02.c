@@ -104,7 +104,6 @@ int main(void)
     return 0;
 }
 
-
 void get(char * string, int n)
 {
     // wrapper for fgets - read from stdin and replace
