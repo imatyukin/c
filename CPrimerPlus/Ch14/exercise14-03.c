@@ -65,7 +65,7 @@ void sortt(struct book * pb[], int n)
     int top, search;
     struct book * temp;
 
-    for (top = 0; top < n -1; top++)
+    for (top = 0; top < n - 1; top++)
         for (search = top + 1; search < n; search++)
             if (strcmp(pb[search]->title, pb[top]->title) < 0)
             {
