@@ -1,4 +1,4 @@
-//  align.c -- using _Alignof and _Alignas  (C11)
+// align.c -- using _Alignof and _Alignas (C11)
 #include <stdio.h>
 
 int main(void)
