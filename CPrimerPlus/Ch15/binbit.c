@@ -1,6 +1,7 @@
 /* binbit.c -- using bit operations to display binary */
 #include <stdio.h>
 #include <limits.h>  // for CHAR_BIT, # of bits per char
+
 char * itobs(int, char *);
 void show_bstr(const char *);
 

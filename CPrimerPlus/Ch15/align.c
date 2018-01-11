@@ -1,6 +1,6 @@
 //  align.c -- using _Alignof and _Alignas  (C11)
-
 #include <stdio.h>
+
 int main(void)
 {
     double dx;

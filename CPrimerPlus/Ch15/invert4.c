@@ -1,6 +1,7 @@
 /* invert4.c -- using bit operations to display binary */
 #include <stdio.h>
 #include <limits.h>
+
 char * itobs(int, char *);
 void show_bstr(const char *);
 int invert_end(int num, int bits);
