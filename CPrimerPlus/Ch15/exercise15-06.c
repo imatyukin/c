@@ -93,6 +93,7 @@ void setfont(Font * font)
         printf("Enter font id (0 - 255): ");
     }
     font->id = id;
+
     CLEARINPUT;
 }
 
@@ -107,6 +108,7 @@ void setsize(Font * font)
         printf("Enter font size (0 - 127): ");
     }
     font->size = size;
+
     CLEARINPUT;
 }
 
