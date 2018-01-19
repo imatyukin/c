@@ -3,5 +3,5 @@ project(c)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES CPrimerPlus/Ch16/preproc.c)
-add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch16/preproc.c)
+set(SOURCE_FILES CPrimerPlus/Ch16/mac_arg.c)
+add_executable(c ${SOURCE_FILES} CPrimerPlus/Ch16/mac_arg.c)

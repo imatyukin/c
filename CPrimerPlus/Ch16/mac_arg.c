@@ -1,7 +1,9 @@
 /* mac_arg.c -- macros with arguments */
 #include <stdio.h>
+
 #define SQUARE(X) X*X
 #define PR(X)   printf("The result is %d.\n", X)
+
 int main(void)
 {
     int x = 5;
