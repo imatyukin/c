@@ -1,5 +1,6 @@
 /* subst.c -- substitute in string */
 #include <stdio.h>
+
 #define PSQR(x) printf("The square of " #x " is %d.\n",((x)*(x)))
 
 int main(void)

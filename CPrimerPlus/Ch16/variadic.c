@@ -1,6 +1,7 @@
 // variadic.c -- variadic macros
 #include <stdio.h>
 #include <math.h>
+
 #define PR(X, ...) printf("Message " #X ": " __VA_ARGS__)
 
 int main(void)
