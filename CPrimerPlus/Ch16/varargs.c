@@ -1,6 +1,7 @@
 //varargs.c -- use variable number of arguments
 #include <stdio.h>
 #include <stdarg.h>
+
 double sum(int, ...);
 
 int main(void)

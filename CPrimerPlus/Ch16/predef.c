@@ -1,5 +1,6 @@
 // predef.c -- predefined identifiers
 #include <stdio.h>
+
 void why_me();
 
 int main()

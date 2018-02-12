@@ -1,5 +1,6 @@
 /* ifdef.c -- uses conditional compilation */
 #include <stdio.h>
+
 #define JUST_CHECKING
 #define LIMIT 4
 

@@ -1,6 +1,7 @@
 // names_st.h -- names_st structure header file
 // constants
 #include <string.h>
+
 #define SLEN 32
 
 // structure declarations

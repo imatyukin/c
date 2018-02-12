@@ -1,6 +1,7 @@
 /* byebye.c -- atexit() example */
 #include <stdio.h>
 #include <stdlib.h>
+
 void sign_off(void);
 void too_bad(void);
 

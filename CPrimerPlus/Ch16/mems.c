@@ -2,10 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
 #define SIZE 10
+
 void show_array(const int ar[], int n);
+
 // remove following if C11 _Static_assert not supported
 _Static_assert(sizeof(double) == 2 * sizeof(int), "double not twice int size");
+
 int main()
 {
     int values[SIZE] = {1,2,3,4,5,6,7,8,9,10};

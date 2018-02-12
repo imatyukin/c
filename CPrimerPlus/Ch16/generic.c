@@ -1,7 +1,7 @@
 //  generic.c  -- defining generic macros
-
 #include <stdio.h>
 #include <math.h>
+
 #define RAD_TO_DEG (180/(4 * atanl(1)))
 
 // generic square root function

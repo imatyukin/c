@@ -32,5 +32,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;          // dispose of rest of line
     }
+
     return ret_val;
 }
