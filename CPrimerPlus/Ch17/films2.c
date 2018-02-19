@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>      /* has the malloc prototype      */
 #include <string.h>      /* has the strcpy prototype      */
+
 #define TSIZE    45      /* size of array to hold title   */
 
 struct film {
@@ -9,7 +10,9 @@ struct film {
     int rating;
     struct film * next;  /* points to next struct in list */
 };
+
 char * s_gets(char * st, int n);
+
 int main(void)
 {
     struct film * head = NULL;
@@ -75,5 +78,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;          // dispose of rest of line
     }
+
     return ret_val;
 }

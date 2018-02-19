@@ -1,6 +1,7 @@
 /* films1.c -- using an array of structures */
 #include <stdio.h>
 #include <string.h>
+
 #define TSIZE        45      /* size of array to hold title   */
 #define FMAX         5       /* maximum number of film titles */
 
@@ -8,7 +9,9 @@ struct film {
     char title[TSIZE];
     int rating;
 };
+
 char * s_gets(char str[], int lim);
+
 int main(void)
 {
     struct film movies[FMAX];
@@ -53,5 +56,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;          // dispose of rest of line
     }
+
     return ret_val;
 }
