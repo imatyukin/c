@@ -3,13 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>    /* prototype for exit() */
 #include "list.h"      /* defines List, Item   */
+
 void showmovies(Item item);
 char * s_gets(char * st, int n);
+
 int main(void)
 {
     List movies;
     Item temp;
-    
     
     /* initialize       */
     InitializeList(&movies);
@@ -79,5 +80,6 @@ char * s_gets(char * st, int n)
             while (getchar() != '\n')
                 continue;          // dispose of rest of line
     }
+
     return ret_val;
 }
