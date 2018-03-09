@@ -1,8 +1,8 @@
 // Chapter 17 Exercise 2
-// Compile with mylist.c
+// Compile with list2.c
 #include <stdio.h>
 #include <stdlib.h>
-#include "mylist.h"
+#include "list2.h"
 
 void showmovies(Item item);
 char * get(char * st, int n);

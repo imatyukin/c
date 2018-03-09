@@ -1,4 +1,4 @@
-/* list.h -- header file for a simple list type */
+/* list2.h -- header file for a simple list type */
 #ifndef LIST_H_
 #define LIST_H_
 

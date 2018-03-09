@@ -1,7 +1,7 @@
-/* list.c -- functions supporting list operations */
+/* list2.c -- functions supporting list operations */
 #include <stdio.h>
 #include <stdlib.h>
-#include "mylist.h"
+#include "list2.h"
 
 /* local function prototype */
 static void CopyToNode(Item item, Node * pnode);
