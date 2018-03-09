@@ -3,6 +3,7 @@
 #define LIST_H_
 
 #include <stdbool.h>
+
 #define TSIZE 45 /* size of array to hold title */
 
 struct film
