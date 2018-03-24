@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /* print Fahrenheit-Celsius table
-    for fahr = 0, 20, ..., 300; floating-point version */
+    for fahr = 0, 20, ..., 300; floating-point version      */
 int main(void)
 {
     float fahr, celsius;
     float lower, upper, step;
 
-    lower = 0;      /* lower limit of temperatuire scale */
-    upper = 300;    /* upper limit */
-    step = 20;      /* step size */
+    lower = 0;      /* lower limit of temperatuire scale    */
+    upper = 300;    /* upper limit                          */
+    step = 20;      /* step size                            */
 
     printf("Fahrenheit Celsius\n");
     fahr = lower;
