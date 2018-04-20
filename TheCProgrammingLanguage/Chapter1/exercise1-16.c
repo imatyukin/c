@@ -38,12 +38,12 @@ int getLine(char s[], int lim)
             s[j] = c;       /*  line still in boundaries    */
             ++j;
         }
-        if (c == '\n') {
-            s[j] = c;
-            ++j;
-            ++i;
-        }
-        s[j] = '\0';
+    if (c == '\n') {
+        s[j] = c;
+        ++j;
+        ++i;
+    }
+    s[j] = '\0';
     return i;
 }
 
