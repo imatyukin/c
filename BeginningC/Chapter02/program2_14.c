@@ -16,7 +16,7 @@ int main(void)
     printf("Total stock sold in first quarter: %ld\n", QuarterSold);
 
     // Calculate the total revenue for the quarter and output it
-    RevQuarter = QuarterSold/150*Revenue_Per_150;
+    RevQuarter = QuarterSold/150.0*Revenue_Per_150;
     printf("Sales revenue this quarter is:$%.2f\n", RevQuarter);
     return 0;
 }
