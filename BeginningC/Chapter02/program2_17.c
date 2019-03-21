@@ -1,45 +1,28 @@
-// Program 2.17  Calculating the height of a tree
+// Program 2.17 Working with complex numbers
+#include <complex.h>
 #include <stdio.h>
 
 int main(void)
 {
-    long shorty = 0L;                         // Shorty's height in inches
-    long lofty = 0L;                          // Lofty's height in inches
-    long feet = 0L;
-    long inches = 0L;
-    long shorty_to_lofty = 0L;                // Distance from Shorty to Lofty in inches
-    long lofty_to_tree = 0L;                  // Distance from Lofty to the tree in inches
-    const long inches_per_foot = 12L;
+    double complex cx = 1.0 + 3.0*I;
+    double complex  cy = 1.0 - 4.0*I;
+    printf("Working with complex numbers:");
+    printf("\nStarting values: cx = %.2f%+.2fi  cy = %.2f%+.2fi",
+           creal(cx), cimag(cx), creal(cy), cimag(cy));
 
-    // Get Lofty's height
-    printf("Enter Lofty's height to the top of his/her head, in whole feet: ");
-    scanf("%ld", &feet);
-    printf("              ...and then inches: ");
-    scanf("%ld", &inches);
-    lofty = feet*inches_per_foot + inches;
+    double complex  sum = cx+cy;
+    printf("\n\nThe sum cx + cy = %.2f%+.2fi", creal(sum),cimag(sum));
 
-    // Get Shorty's height up to his/her eyes
-    printf("Enter Shorty's height up to his/her eyes, in whole feet: ");
-    scanf("%ld", &feet);
-    printf("                               ... and then inches: ");
-    scanf("%ld", &inches);
-    shorty = feet*inches_per_foot + inches;
+    double complex  difference = cx-cy;
+    printf("\n\nThe difference cx - cy = %.2f%+.2fi", creal(difference),cimag(difference));
 
-    // Get the distance from Shorty to Lofty
-    printf("Enter the distance between Shorty and Lofty, in whole feet: ");
-    scanf("%ld", &feet);
-    printf("                                        ... and then inches: ");
-    scanf("%ld", &inches);
-    shorty_to_lofty = feet*inches_per_foot + inches;
+    double complex product = cx*cy;
+    printf("\n\nThe product cx * cy = %.2f%+.2fi", creal(product),cimag(product));
 
-    // Get the distance from Lofty to the tree
-    printf("Finally enter the distance from Lofty to the tree to the nearest foot: ");
-    scanf("%ld", &feet);
-    lofty_to_tree = feet*inches_per_foot;
+    double complex quotient = cx/cy;
+    printf("\n\nThe quotient cx / cy = %.2f%+.2fi", creal(quotient),cimag(quotient));
 
-    // The code to calculate the height of the tree will go here
-
-    // The code to display the result will go here
-
+    double complex conjugate = conj(cx);
+    printf("\n\nThe conjugate of cx =  %.2f%+.2fi\n", creal(conjugate) ,cimag(conjugate));
     return 0;
 }
