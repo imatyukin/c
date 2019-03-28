@@ -9,12 +9,11 @@ int main(void)
     const double product_type1 = 3.50;
     const double product_type2 = 5.50;
     int type, quantity = 0;
-    double price = 0.0;
 
     printf("Enter the product type (1 or 2) and the quantity: ");
     scanf("%d %d", &type, &quantity);
 
-    price = quantity * (product_type1 + (type - 1) * (product_type2 - product_type1));
+    double price = quantity * (product_type1 + (type - 1) * (product_type2 - product_type1));
 
     printf("The price for the quantity entered is $%.2f.\n", price);
 
