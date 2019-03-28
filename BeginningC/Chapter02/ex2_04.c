@@ -14,7 +14,7 @@ int main(void)
 
     double hourly_rate = income / hours;
     int dollars = (int)hourly_rate / 1;
-    int cents = (int)((100.0 * hourly_rate) - (100.0 * dollars) + 0.5);
+    int cents = (int)((100 * hourly_rate) - (100 * dollars) + 0.5);
 
     printf("Your average hourly pay rate is %d dollars and %d cents.", dollars, cents);
 
